@@ -3,8 +3,8 @@
 The project aimed to predict wine quality using the Wine Quality Dataset through Multiple Linear Regression (MLR). The focus was on performing ridge regression for regularization and applying forward, backward, and stepwise selection methods to identify the most relevant features.
 
 ### Steps:
-1. Data Preprocessing: Cleaned and split the dataset for training and testing.
-2. Ridge Regression: Used Ridge Trace to visualize the impact of the ridge parameter (λ) on model coefficients and selected the optimal λ using cross-validation.
+1. Data Loading: Loaded and splitted the dataset for both the steps below.
+2. Ridge Regression: Used Ridge Trace to visualize the impact of the ridge parameter (λ) on model coefficients.
 3. Variable Selection:
 Applied three methods:
 Forward Stepwise: Added variables one at a time based on their significance.
